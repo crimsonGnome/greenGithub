@@ -3,11 +3,10 @@
 
 # variables 
 updateTextFile="randomNumber.txt"
+commitMessage="Another update..."
 $branch="main"
 
 echo "running Crimson Github script" 
-
-
 
 
 echo "running update script" 
@@ -18,7 +17,6 @@ echo "git add"
 git add .
 
 echo 'Enter the commit message:'
-read commitMessage
 
 git commit -m "$commitMessage"
 

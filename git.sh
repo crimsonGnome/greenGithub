@@ -10,7 +10,7 @@ echo "running Crimson Github script"
 
 
 echo "running update script" 
-sed "s/[0-9]\+/$RANDOM/" $updateTextFile
+sed "s/[0-9]\+/$RANDOM/" randomNumber.txt
 echo "updated file"
 
 echo "git add"

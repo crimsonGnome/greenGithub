@@ -2,7 +2,7 @@
 
 
 # variables 
-updateTextFile="randomNumber.txt"
+updateTextFile=randomNumber.txt
 commitMessage="Another update..."
 $branch="main"
 

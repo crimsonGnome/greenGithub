@@ -8,10 +8,8 @@ $branch="main"
 
 echo "running Crimson Github script" 
 
-
 echo "running update script" 
-sed "-i s/[0-9]\+/$RANDOM/g" randomNumber.txt
-echo "updated file"
+sed -i "s/[0-9]\+/$RANDOM/" "randomNumber.txt"
 
 echo "git add"
 git add .

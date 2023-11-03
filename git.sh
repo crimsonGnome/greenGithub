@@ -3,7 +3,7 @@
 
 # variables 
 updateTextFile=randomNumber.txt
-commitMessage="Another update..."
+commitMessage="Another update... $RANDOM/"
 $branch="main"
 
 echo "running Crimson Github script" 

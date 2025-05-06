@@ -23,5 +23,5 @@ git commit -m "$commitMessage"
 echo 'Enter the name of the branch:'
 
 git push origin $branch
-read
 
+echo 'Successfully executed. Exiting...'
